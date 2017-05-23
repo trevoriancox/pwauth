@@ -279,7 +279,7 @@
  * to change the uid list.
  */
 
-#define SERVER_UIDS 30		/* user "wwwrun" on the author's system */
+//#define SERVER_UIDS 30		/* user "wwwrun" on the author's system */
 
 
 /* If MIN_UNIX_UID is defined to an integer, logins with uid numbers less than
@@ -291,7 +291,7 @@
  * given value will be accepted).
  */
 
-#define MIN_UNIX_UID 500	/**/
+#define MIN_UNIX_UID 0	/* was 500 */
 
 
 /* If IGNORE_CASE is defined, the login given is checked in two different
